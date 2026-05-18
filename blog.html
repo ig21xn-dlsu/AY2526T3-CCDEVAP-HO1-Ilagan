@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <title>Blog</title>
 </head>
 
 <body>
+
     <header class="site-header">
         <section class="header-left">Ian</section>
         <section class="header-right">
@@ -18,12 +20,86 @@
     </header>
 
     <main>
-        <section>
 
+        <section class="blog-posts">
+            <h2>Blog Posts</h2>
+
+            <article class="blog-entry">
+                <h3>Just Some Random Thoughts</h3>
+
+                <p><strong>Date:</strong> May 10, 2026</p>
+                <p><strong>Time:</strong> 08:30 PM</p>
+                <p><strong>Submission Type:</strong> Personal Reflection</p>
+
+                <p>
+                    Studying at DLSU-Manila as an IT student has both been a rollercoaster of emotions. I remember
+                    starting CCPROG1 as someone who does have any idea on how to code. I still remember how terrified I
+                    was when I saw our MP specification. But hey, here I am now. Though of course there is still a LOT
+                    of stuff that I need to learn, I know that there is progress, and that's what really matters...For
+                    now...(Hehe i need to feed myself paglaki)
+                </p>
+            </article>
         </section>
+
+
+        <section class="blog-form-section">
+            <h2>Submit a New Blog Entry</h2>
+
+            <form>
+                <label for="title">Title:</label><br>
+                <input type="text" id="title" name="title" required>
+                <br><br>
+
+                <label for="date">Date:</label><br>
+                <input type="date" id="date" name="date" required>
+                <br><br>
+
+                <label for="time">Time:</label><br>
+                <input type="time" id="time" name="time" required>
+                <br><br>
+
+                <label for="type">Submission Type:</label><br>
+                <select id="type" name="type" required>
+                    <option value="reflection">Reflection</option>
+                    <option value="journal">Journal</option>
+                    <option value="essay">Essay</option>
+                    <option value="update">Update</option>
+                </select>
+                <br><br>
+
+                <label for="content">Content:</label><br>
+                <textarea id="content" name="content" rows="6" cols="40" required></textarea>
+                <br><br>
+
+                <label for="mood">Mood:</label><br>
+                <input type="radio" id="happy" name="mood" value="happy">
+                <label for="happy">Happy</label>
+
+                <input type="radio" id="neutral" name="mood" value="neutral">
+                <label for="neutral">Neutral</label>
+
+                <input type="radio" id="stressed" name="mood" value="stressed">
+                <label for="stressed">Stressed</label>
+
+                <br><br>
+
+                <input type="checkbox" id="publish" name="publish">
+                <label for="publish">Make this public</label>
+
+                <br><br>
+
+                <input type="submit" value="Submit Blog">
+                <input type="reset" value="Clear Form">
+
+            </form>
+        </section>
+
     </main>
 
-    <footer class="site-footer">© 2026. All Right Reserved.</footer>
+    <footer class="site-footer">
+        © 2026. All Right Reserved.
+    </footer>
+
 </body>
 
 </html>
