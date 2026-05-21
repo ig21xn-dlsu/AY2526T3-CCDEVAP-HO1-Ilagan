@@ -3,10 +3,12 @@
 
 <head>
     <title>Skills</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css" />
 </head>
 
 <body>
-    <header>
+    <header class="site-header">
         <section>Ian</section>
         <section>
             <a href="index.html">About Me</a> |
@@ -18,21 +20,30 @@
     </header>
 
     <main>
-        <section>
-            <section>Skills</section>
-
-            <section>
-                <section>Programming Languages</section>
-                <section>Certifications</section>
+        <section id="container-skills">
+            <section section class="site-title">Programming Languages</section>
+            <section id="container-skills-proglangs">
+                <div class="skills-icon"><img class="photo-fill" src="./icons/C_Icon.svg"></div>
+                <div class="skills-icon"><img class="photo-fill" src="./icons/Java_Icon.png"></div>
+                <div class="skills-icon"><img class="photo-fill" src="./icons/PHP_Icon.svg"></div>
+                <div class="skills-icon"><img class="photo-fill" src="./icons/Python_Icon.svg"></div>
             </section>
-
-            <section>
-                <section>Blog</section>
+            <section section class="site-title">Certificates</section>
+            <section id="container-skills-certs">
+                <a href="https://www.coursera.org/account/accomplishments/records/016X2R23SPYE" target="_blank">
+                    <div class="certs-icon"><img class="photo-fill" src="./icons/GitAndGithub.jpg"></div>
+                </a>
+                <a href="https://www.coursera.org/account/accomplishments/records/DY3KPVF4F64L" target="_blank">
+                    <div class="certs-icon"><img class="photo-fill" src="./icons/IntroToITandAWSCloud.jpg"></div>
+                </a>
+                <a href="https://www.coursera.org/account/accomplishments/records/CQNJS9SWHWLX" target="_blank">
+                    <div class="certs-icon"><img class="photo-fill" src="./icons/IntroToSoftEng.jpg"></div>
+                </a>
             </section>
         </section>
     </main>
 
-    <footer>© 2026. All Right Reserved.</footer>
+    <footer class="site-footer">© 2026. All Rights Reserved.</footer>
 </body>
 
 </html>
