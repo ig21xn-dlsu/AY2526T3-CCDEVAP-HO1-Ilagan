@@ -3,12 +3,14 @@
 
 <head>
     <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css" />
 </head>
 
 <body>
     <header class="site-header">
-        <section class="header-left">Ian</section>
-        <section class="header-right">
+        <section>Ian</section>
+        <section>
             <a href="index.html">About Me</a> |
             <a href="blog.html">Blog</a> |
             <a href="skills.html">Skills</a> |
@@ -18,37 +20,54 @@
     </header>
 
     <main>
-        <section class="contact-main">
-            <section class="main-title">Contact Me</section>
-            <section class="social-medias">
-                <a href="https://www.instagram.com/i.21xgn/">
-                    <div class="icon-container"><img src="./icons/instagram.png" class="social-icons"></div>
+        <section id="container-contact">
+            <section class="site-title">Contact Me</section>
+
+            <section id="container-contact-icons">
+                <a href="https://www.instagram.com/i.21xgn/" target="_blank">
+                    <div class="contact-icon">
+                        <img class="photo-fill" src="./icons/instagram.png">
+                    </div>
                 </a>
-                <a href=" https://www.facebook.com/ig21xn/">
-                    <div class="icon-container"><img src="./icons/facebook.png" class="social-icons"></div>
+
+                <a href=" https://www.facebook.com/ig21xn/" target="_blank">
+                    <div class="contact-icon">
+                        <img class="photo-fill" src="./icons/facebook.png">
+                    </div>
                 </a>
-                <a href="https://discord.com/users/1279236350436053058">
-                    <div class="icon-container"><img src="./icons/discord.png" class="social-icons"></div>
+
+                <a href="https://discord.com/users/1279236350436053058" target="_blank">
+                    <div class="contact-icon">
+                        <img class="photo-fill" src="./icons/discord.png">
+                    </div>
                 </a>
-                <a href="https://github.com/ig21xn-dlsu">
-                    <div class="icon-container"><img src="./icons/github.png" class="social-icons"></div>
+
+                <a href="https://github.com/ig21xn-dlsu" target="_blank">
+                    <div class="contact-icon">
+                        <img class="photo-fill" src="./icons/github.png">
+                    </div>
                 </a>
-                <a href="https://www.linkedin.com/in/igi21/">
-                    <div class="icon-container"><img src="./icons/linkedin.svg" class="social-icons"></div>
+
+                <a href="https://www.linkedin.com/in/igi21/" target="_blank">
+                    <div class="contact-icon">
+                        <img class="photo-fill" src="./icons/linkedin.svg">
+                    </div>
                 </a>
             </section>
-            <section class="email-form">
-                <form id="email-form-container">
+
+            <section id="container-contact-form">
+                <form id="contact-form">
                     <input type="text" placeholder="youremail@email.com">
                     <input type="text" placeholder="Subject">
                     <textarea placeholder="Content"></textarea>
                 </form>
-                <button type="submit">Submit</button>
+
+                <button type="submit"><img class="photo-fill" src="./icons/send_button.png"></button>
             </section>
         </section>
     </main>
 
-    <footer class="site-footer">© 2026. All Right Reserved.</footer>
+    <footer class="site-footer">© 2026. All Rights Reserved.</footer>
 </body>
 
 </html>
