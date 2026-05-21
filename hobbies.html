@@ -3,10 +3,12 @@
 
 <head>
     <title>Hobbies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css" />
 </head>
 
 <body>
-    <header>
+    <header class="site-header">
         <section>Ian</section>
         <section>
             <a href="index.html">About Me</a> |
@@ -18,111 +20,114 @@
     </header>
 
     <main>
-        <section>
-            <section>My Hobbies</section>
+        <section id="container-hobbies">
+            <section class="site-title">My Hobbies</section>
 
-            <section>
-                <section>
-                    <div>
-                        <section>
-                            <audio controls>
-                                <source src="./audios/current_music.mp3" type="audio/mpeg">
-                            </audio>
-                        </section>
+            <section id="container-hobbies-cards">
+                <section class="hobbies-card">
+                    <section class="hobbies-card-thumbnail">
+                        <img class="photo-fill" src="./images/hobbies-music.jpg">
+                    </section>
 
-                        <section>
+                    <section class="hobbies-card-text">
+                        <div class="container-title hobbies-title">
                             <p>Music</p>
-                            <hr>
-                            <p>Listening to Music helps me to relax and eases my nerves. Check out this one I'm
-                                currently listening to!</p>
-                        </section>
-                    </div>
+                        </div>
+                        <hr>
+                        <p>Listening to Music helps me to relax and eases my nerves. Check out this one I'm
+                            currently listening to!</p>
+
+                        <audio controls>
+                            <source src="./audios/current_music.mp3" type="audio/mpeg">
+                        </audio>
+                    </section>
                 </section>
 
-                <section>
-                    <div>
-                        <section>
-                            <video width="100%" height="100%" controls>
-                                <source src="./videos/physical_activity.mp4" type="video/mp4">
-                            </video>
-                        </section>
+                <section class="hobbies-card">
+                    <section class="hobbies-card-thumbnail">
+                        <video class="photo-fill" controls>
+                            <source src="./videos/physical_activity.mp4" type="video/mp4">
+                        </video>
+                    </section>
 
-                        <section>
+                    <section class="hobbies-card-text">
+                        <div class="container-title hobbies-title">
                             <p>Physical Activities</p>
-                            <hr>
-                            <p>Going to the gym, jogging, and especially, hiking! These activities help me feel more
-                                alive especially after a long day of sitting in front of the computer!
-                            </p>
+                        </div>
+                        <hr>
+                        <p>Going to the gym, jogging, and especially, hiking! These activities help me feel more
+                            alive especially after a long day of sitting in front of the computer!
+                        </p>
 
-                            <hr>
+                        <hr>
 
-                            <p>Goals:<br></p>
+                        <p>Goals:<br></p>
 
-                            <ul>
-                                <li>Hike Mt.Pulag</li>
-                                <li>Hike Mt.Ulap</li>
-                                <li>Jog for 20km in one go!</li>
-                                <li>Set a new PR at the Brench Press</li>
-                            </ul>
-                        </section>
-                    </div>
+                        <ul>
+                            <li>Hike Mt.Pulag</li>
+                            <li>Hike Mt.Ulap</li>
+                            <li>Jog for 20km in one go!</li>
+                            <li>Set a new PR at the Brench Press</li>
+                        </ul>
+                    </section>
                 </section>
 
-                <section>
-                    <div>
-                        <section>
-                            <video width="100%" height="100%" controls>
-                                <source src="./videos/gaming.mp4" type="video/mp4">
-                            </video>
-                        </section>
+                <section class="hobbies-card">
+                    <section class="hobbies-card-thumbnail">
+                        <video class="photo-fill" controls>
+                            <source src="./videos/gaming.mp4" type="video/mp4">
+                        </video>
+                    </section>
 
-                        <section>
+                    <section class="hobbies-card-text">
+                        <div class="container-title hobbies-title">
                             <p>Gaming</p>
-                            <hr>
+                        </div>
+                        <hr>
 
-                            <p>Playing games if more of a "love-hate" relationship because it's either it will be fun or
-                                stressful...But hey it works so~
-                            </p>
+                        <p>Playing games if more of a "love-hate" relationship because it's either it will be fun or
+                            stressful...But hey it works so~
+                        </p>
 
-                            <hr>
+                        <hr>
 
-                            <p>Games I play (currently):<br></p>
+                        <p>Games I play (currently):<br></p>
 
-                            <ul>
-                                <li>Call of Duty: Mobile</li>
-                                <li>Wuthering Waves</li>
-                                <li>Mobile Legends: Bang Bang</li>
-                                <li>Roblox (lol)</li>
-                                <li>Valorant</li>
-                            </ul>
-                        </section>
-                    </div>
+                        <ul>
+                            <li>Call of Duty: Mobile</li>
+                            <li>Wuthering Waves</li>
+                            <li>Mobile Legends: Bang Bang</li>
+                            <li>Roblox (lol)</li>
+                            <li>Valorant</li>
+                        </ul>
+                    </section>
                 </section>
 
-                <section>
-                    <div>
-                        <section>
-                            <img src="./images/macchi.jpg">
-                        </section>
+                <section class="hobbies-card">
+                    <section class="hobbies-card-thumbnail">
+                        <img class="photo-fill" src="./images/macchi.jpg">
+                    </section>
 
-                        <section>
+                    <section class="hobbies-card-text">
+                        <div class="container-title hobbies-title">
                             <p>Cat-Sitting</p>
-                            <hr>
+                        </div>
+                        <hr>
 
-                            <p>Meet Macchi (short for Macchiato)! She is my 2-year old cat who I love the most. Though
-                                I spend most of my time alone, I don't feel lonely because of her. I always spoil her
-                                with her favorite treats and wet food. Though there are time that she surprises me (by
-                                literally putting a cockroach and a dead mice on my pillow), I know that it is just her
-                                own way showing that she loves me, too!
-                            </p>
-                        </section>
-                    </div>
+                        <p>Meet Macchi (short for Macchiato)! She is my 2-year old cat who I love the most. Though
+                            I spend most of my time alone, I don't feel lonely because of her. I always spoil her
+                            with her favorite treats and wet food. Though there are time that she surprises me (by
+                            literally putting a cockroach and a dead mice on my pillow), I know that it is just her
+                            own way showing that she loves me, too!
+                        </p>
+                    </section>
                 </section>
+
             </section>
         </section>
     </main>
 
-    <footer>© 2026. All Right Reserved.</footer>
+    <footer class="site-footer">© 2026. All Rights Reserved.</footer>
 </body>
 
 </html>
