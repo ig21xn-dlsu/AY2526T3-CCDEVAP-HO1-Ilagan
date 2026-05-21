@@ -8,9 +8,10 @@
 
 <body>
 
-    <header class="site-header">
-        <section class="header-left">Ian</section>
-        <section class="header-right">
+    <header>
+        <section>Ian</section>
+
+        <section>
             <a href="index.html">About Me</a> |
             <a href="blog.html">Blog</a> |
             <a href="skills.html">Skills</a> |
@@ -21,10 +22,10 @@
 
     <main>
 
-        <section class="blog-posts">
+        <section>
             <h2>Blog Posts</h2>
 
-            <article class="blog-entry">
+            <article>
                 <h3>Just Some Random Thoughts</h3>
 
                 <p><strong>Date:</strong> May 10, 2026</p>
@@ -41,50 +42,52 @@
             </article>
         </section>
 
-
-        <section class="blog-form-section">
+        <section>
             <h2>Submit a New Blog Entry</h2>
 
             <form>
                 <label for="title">Title:</label><br>
-                <input type="text" id="title" name="title" required>
+                <input type="text" name="title" required>
                 <br><br>
 
                 <label for="date">Date:</label><br>
-                <input type="date" id="date" name="date" required>
+                <input type="date" name="date" required>
                 <br><br>
 
                 <label for="time">Time:</label><br>
-                <input type="time" id="time" name="time" required>
+                <input type="time" name="time" required>
                 <br><br>
 
                 <label for="type">Submission Type:</label><br>
-                <select id="type" name="type" required>
+                <select name="type" required>
                     <option value="reflection">Reflection</option>
                     <option value="journal">Journal</option>
                     <option value="essay">Essay</option>
                     <option value="update">Update</option>
                 </select>
+
                 <br><br>
 
                 <label for="content">Content:</label><br>
-                <textarea id="content" name="content" rows="6" cols="40" required></textarea>
+                <textarea name="content" rows="6" cols="40" required></textarea>
+
                 <br><br>
 
                 <label for="mood">Mood:</label><br>
-                <input type="radio" id="happy" name="mood" value="happy">
-                <label for="happy">Happy</label>
 
-                <input type="radio" id="neutral" name="mood" value="neutral">
-                <label for="neutral">Neutral</label>
+                <input type="radio" name="mood" value="happy">
+                <label>Happy</label>
 
-                <input type="radio" id="stressed" name="mood" value="stressed">
-                <label for="stressed">Stressed</label>
+                <input type="radio" name="mood" value="neutral">
+                <label>Neutral</label>
+
+                <input type="radio" name="mood" value="stressed">
+                <label>Stressed</label>
 
                 <br><br>
 
-                <input type="checkbox" id="publish" name="publish">
-                <label for="publish">Make this public</label>
+                <input type="checkbox" name="publish">
+                <label>Make this public</label>
 
                 <br><br>
 
@@ -96,7 +99,7 @@
 
     </main>
 
-    <footer class="site-footer">
+    <footer>
         © 2026. All Right Reserved.
     </footer>
 

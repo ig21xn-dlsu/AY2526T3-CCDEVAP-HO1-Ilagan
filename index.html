@@ -3,12 +3,14 @@
 
 <head>
     <title>About Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css" />
 </head>
 
 <body>
     <header class="site-header">
-        <section class="header-left">Ian</section>
-        <section class="header-right">
+        <section>Ian</section>
+        <section>
             <a href="index.html">About Me</a> |
             <a href="blog.html">Blog</a> |
             <a href="skills.html">Skills</a> |
@@ -18,14 +20,20 @@
     </header>
 
     <main>
-        <section class="main-container">
-            <section class="main-left">
+        <section id="container-index">
+            <section id="container-index-left">
                 <p>Hello!</p>
-                <p>I'm Ian.</p>
-                <p>A BS Information <br>Technology student <br>at De La Salle <br>University. </p>
+                <div id="container-hello">
+                    <div id="line-hello"></div>
+                    <p>I'm Ian.</p>
+                </div>
+                <p class="bold">A BS Information <br>Technology student <br>at De La Salle <br>University.</p>
             </section>
-            <section class="main-right">
-                <section id="pfp-container"><img src="./images/ian_pfp.JPG" id="ian-pfp"></section>
+
+            <section id="container-index-right">
+                <section id="container-photo-ian">
+                    <img id="photo-ian" src="./images/ian_pfp.JPG">
+                </section>
             </section>
         </section>
     </main>
